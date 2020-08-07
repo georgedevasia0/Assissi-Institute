@@ -9,9 +9,13 @@
     <link rel="stylesheet" href="assets/vendor/animate.css/animated.css">
     <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+ <!-- ======= Header Starts Here ======= -->  
+ <?php include'header.html';?>
+ <!-- ======= Header Starts Here ======= -->
     <section class="ftco-services mt-5 pt-5">
         <div class="container">
             <div class="row no-gutters">
@@ -153,7 +157,9 @@
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/scrollax.min.js"></script>
     <script src="assets/js/about.js"></script>
-
+   <!-- ======= Footer Starts Here ======= -->
+   <?php include'footer.html';?>
+   <!-- ======= Footer Starts Here ======= -->
 </body>
 
 </html>

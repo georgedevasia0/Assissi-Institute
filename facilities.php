@@ -19,9 +19,13 @@
 
 
     <link rel="stylesheet" href="assets/facilities.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+<!-- ======= Header Starts Here ======= -->  
+ <?php include'header.html';?>
+ <!-- ======= Header Starts Here ======= -->
     <section class="courses spad">
         <div class="container">
             <div class="row">
@@ -107,6 +111,9 @@
             </div>
         </div>
     </section>
+   <!-- ======= Footer Starts Here ======= -->
+       <?php include'footer.html';?>
+   <!-- ======= Footer Starts Here ======= -->
 </body>
 
 </html>
