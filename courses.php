@@ -7,9 +7,13 @@
     <title>Courses</title>
     <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/courses.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+ <!-- ======= Header Starts Here ======= -->  
+ <?php include'header.html';?>
+ <!-- ======= Header Starts Here ======= -->
     <section class="blog spad">
         <div class="container">
             <div class="row">
@@ -159,6 +163,10 @@
         </div>
     </section>
     <!-- Blog Section End -->
+
+   <!-- ======= Footer Starts Here ======= -->
+       <?php include'footer.html';?>
+   <!-- ======= Footer Starts Here ======= -->
 
 </body>
 

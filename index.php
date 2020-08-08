@@ -30,56 +30,9 @@
 </head>
 
 <body>
-    <!-- ======= Header ======= -->
-    <header id="header" style="background-color: #FFFFFF;" class="border">
-        <div class="container-fluid">
-
-            <div id="logo" class="pull-left">
-                <!--<h1><a href="#intro" class="scrollto">Assissi</a></h1>-->
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <a href="#intro"><img src="assets/img/logo/2.png" alt=""
-                        style="height:60px;width:60px;margin-top:-15px;"><img src="assets/img/logo/4.png" alt=""
-                        style="height:60px;width:170px;margin-top:-15px;"></a>
-            </div>
-
-            <nav id="nav-menu-container">
-                <ul class="nav-menu">
-                    <li class="menu-active"><a href="index.html">Home</a></li>
-                    <li class="menu-has-children"><a onclick="window.scrollTo(0, 600);">About Us</a>
-                        <ul>
-                            <li><a href="#">ASSISI IFL</a></li>
-                            <li><a href="#">OUR INSPIRATION</a></li>
-                            <li><a href="#">OUR VISION</a></li>
-                            <li><a href="#">OUR MISSION</a></li>
-                            <li><a href="#">FACULTY</a></li>
-                            <li><a href="#">PHILODOPHY OF AIFL</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-has-children"><a onclick="window.scrollTo(0, 1150);">COURSES</a>
-                        <ul>
-                            <li><a onclick="window.scrollTo(0, 1150);">GERMAN</a></li>
-                            <li><a onclick="window.scrollTo(0, 1150);">FRENCH</a></li>
-                            <li><a onclick="window.scrollTo(0, 1150);">ITALIAN</a></li>
-                            <li><a onclick="window.scrollTo(0, 1150);">ENGLISH</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-has-children"><a href="#portfolio">FACILITIES</a>
-                        <ul>
-                            <li><a href="#">LAB</a></li>
-                            <li><a href="#">HOSTEL</a></li>
-                            <li><a href="#">LIBRARY</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#team">GALLERY</a></li>
-                    <li><a href="">CONTACT</a>
-                    </li>
-                    <li><a href="#contact">REGISTER</a></li>
-                </ul>
-            </nav><!-- #nav-menu-container -->
-        </div>
-    </header><!-- End Header -->
-
-
+  <!-- ======= Header Starts Here ======= -->  
+ <?php include'header.html';?>
+ <!-- ======= Header Starts Here ======= -->
     <!-- ======= Hero Section ======= -->
     <section id="hero">
         <div class="hero-container">
@@ -664,95 +617,9 @@
             </div>
         </div>
     </section>
-
-    <footer class="ftco-footer ftco-bg-dark ftco-section bg-white">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-md-6 col-lg">
-                    <div class="ftco-footer-widget mb-4">
-                        <div id="logo" class="pb-4">
-                            <!--<h1><a href="#intro" class="scrollto">Assissi</a></h1>-->
-                            <!-- Uncomment below if you prefer to use an image logo -->
-                            <a href="#intro"><img src="assets/img/logo/2.png" alt=""
-                                    style="height:60px;width:60px;margin-top:-15px;"><img src="assets/img/logo/4.png"
-                                    alt="" style="height:60px;width:170px;margin-top:-15px;"></a>
-                        </div>
-                        <p>Assisi is an intellectual destination that draws inspired scholars to our international
-                            campuses, keeping Assisi at the nexus of ideas that challenge and change the world.</p>
-                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                            <li class="ftco-animate"><a href="#"><i class="x icofont-twitter"></i></a></li>
-                            <li class="ftco-animate"><a href="#"><i class="x icofont-facebook"></i></a></li>
-                            <li class="ftco-animate"><a href="#"><i class="x icofont-instagram"></i></a></li>
-                            <li class="ftco-animate"><a href="#"><i class="x icofont-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg">
-                    <div class="ftco-footer-widget mb-4 ml-md-5">
-                        <h3 class="heading-2 pb-2">Services</h3>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Campus
-                                    Tour</a></li>
-                            <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Student
-                                    Life</a></li>
-                            <li><a href="#" class="py-1 d-block"><span
-                                        class="ion-ios-arrow-forward mr-3"></span>Scholarship</a></li>
-                            <li><a href="#" class="py-1 d-block"><span
-                                        class="ion-ios-arrow-forward mr-3"></span>Admission</a></li>
-                            <li><a href="#" class="py-1 d-block"><span
-                                        class="ion-ios-arrow-forward mr-3"></span>Leadership</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg">
-                    <div class="ftco-footer-widget mb-4 ml-md-5">
-                        <h3 class="heading-2 pb-2">Courses</h3>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="py-1 d-block"><span
-                                        class="ion-ios-arrow-forward mr-3"></span>German</a>
-                            </li>
-                            <li><a href="#" class="py-1 d-block"><span
-                                        class="ion-ios-arrow-forward mr-3"></span>French</a>
-                            </li>
-                            <li><a href="#" class="py-1 d-block"><span
-                                        class="ion-ios-arrow-forward mr-3"></span>Italian</a>
-                            </li>
-                            <li><a href="#" class="py-1 d-block"><span
-                                        class="ion-ios-arrow-forward mr-3"></span>English</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg">
-                    <div class="ftco-footer-widget mb-4">
-                        <h3 class="heading-2 pb-2">Contact information</h2>
-                            <ul class="list-unstyled">
-                                <li><a href="#" class="py-1 d-block"><span
-                                            class="ion-ios-arrow-forward mr-3"></span>ASSISI INSTITUTE OF FOREIGN
-                                        LANGUAGES
-                                        Opp:St. Alphonsa Shrine, Bharanaganam - 686578
-                                        Kottayam Dt, Kerala. </a>
-                                </li>
-                                <li><a href="#" class="py-1 d-block"><span
-                                            class="ion-ios-arrow-forward mr-3"></span>04822236457,
-                                        9961246648</a>
-                                </li>
-                                <li><a href="#" class="py-1 d-block"><span
-                                            class="ion-ios-arrow-forward mr-3"></span>assisiifl@gmail.com</a>
-                                </li>
-                                <li><a href="#" class="py-1 d-block"><span
-                                            class="ion-ios-arrow-forward mr-3"></span>assisiinstitute.org</a>
-                                </li>
-                            </ul>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <div class="container text-dark text-center pt-2">Assisi IFL 2020, All Rights Reserved,
-                <b>Developed By
-                    Foxiton</b></div>
-        </div>
-    </footer>
+   <!-- ======= Footer Starts Here ======= -->
+    <?php include'footer.html';?>
+   <!-- ======= Footer Starts Here ======= -->
 
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
