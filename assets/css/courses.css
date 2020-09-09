@@ -223,6 +223,11 @@ ol {
 .blog__item__text {
 	padding-top: 25px;
 }
+.blog-p{
+	padding-left: 5%;
+	padding-bottom: 5%;
+	padding-right: 3%;
+}
 
 .blog__item__text span {
 	font-size: 13px;
