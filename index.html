@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assisi Institute of Foreign Languages</title>
 
+    <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
     <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -16,6 +21,7 @@
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/vendor/ionicons/css/ionicons.min.css">
     <link href="https://cdn.boomcdn.com/libs/owl-carousel/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,10 +31,43 @@
     <link rel="stylesheet" href="assets/vendor/ionicons/css/ionicons.min.css">
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!--<link rel="stylesheet" href="assets/vendor/aos/aos.css">-->
+    
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+      .logo1 {
+            width: 150px !important;
+            margin-top: -30px !important;
+        }
+
+        @media (max-width: 992px) {
+            .logo1 {
+                width: 150px !important;
+                margin-top: -30px !important;
+            }
+
+            @media (max-width: 768px) {
+                .logo1 {
+                    width: 200px !important;
+                    margin-top: -35px !important;
+                }
+
+                .logo {
+                    height: 150px;
+                }
+
+                #header #logo img {
+                    max-height: 70px;
+                }
+            }
+        }
+    </style>
 </head>
 
+<<<<<<< Updated upstream:index.html
 <body>
     <!-- ======= Header ======= -->
     <header id="header" style="background-color: #FFFFFF;" class="border">
@@ -80,6 +119,12 @@
     </header><!-- End Header -->
 
 
+=======
+<body style="font-family: 'Raleway', sans-serif;">
+  <!-- ======= Header Starts Here ======= -->  
+ <?php include('header.html');?>
+ <!-- ======= Header Starts Here ======= -->
+>>>>>>> Stashed changes:index.php
     <!-- ======= Hero Section ======= -->
     <section id="hero">
         <div class="hero-container">
@@ -93,18 +138,21 @@
                     <div class="carousel-item active" style="background-image: url('assets/img/bg-1.jpg');">
                         <div class="carousel-container">
                             <div class="carousel-content container">
-                                <h2 class="animated fadeInDown">Welcome to <span>Assisi Institute of Foreign
+                                <h2 class="animated fadeInDown type-font">Assisi Institute of Foreign
                                         Languages</span></h2>
                                 <div class="container text-white">
-                                    <h6 class="text-center hde">India’s Best & Exclusive Foreign Language
-                                        Institute<br><br>Taught By Experienced Lectures</h6>
+                                    <h6 class="text-center hde font-weight-bold" style="letter-spacing:2px" data-aos="fade-up">The most promising language school in Kerala<br>
+                                    <br>Run by Capuchin Fathers<br></h6>
                                 </div>
-                                <a onclick="window.scrollTo(0, 600);" class="btn-get-started animated fadeInUp scrollto"
-                                    style="cursor: pointer;">Contact Us</a>
-                                <a onclick="window.scrollTo(0, 600);" class="btn-get-started animated fadeInUp scrollto"
-                                    style="cursor: pointer;">Join Our Classes</a>
-                                <a onclick="window.scrollTo(0, 600);" class="btn-get-started animated fadeInUp scrollto"
-                                    style="cursor: pointer;">Register</a>
+                                <a onclick="window.scrollTo(0, 600);" class="btn-get-started btn btn-lg col-lg-3 animated fadeInUp scrollto"
+                                    style="cursor: pointer;">Contact Us <i class="fa fa-phone"></i></a>
+                                <a onclick="window.scrollTo(0, 600);" class="btn-get-started  btn btn-lg col-lg-3 animated fadeInUp scrollto"
+                                    style="cursor: pointer;">Our Programs <i class="fa fa-flash"></i></a>
+                                <a onclick="window.scrollTo(0, 600);" class="btn-get-started  btn btn-lg col-lg-3 animated fadeInUp scrollto"
+                                style="cursor: pointer;">Upcoming Batches <i class="fa fa-linode"></i></a>
+                                <a onclick="window.scrollTo(0, 600);" class="btn-get-started  btn btn-lg col-lg-3 animated fadeInUp scrollto"
+                                    style="cursor: pointer;">WhatsApp <i class="fa fa-whatsapp"></i></a>
+                                
                             </div>
                         </div>
                     </div>
@@ -114,7 +162,7 @@
                         <div class="carousel-container">
                             <div class="carousel-content container">
                                 <h2 class="animated fadeInDown">Join us <span>and Emphasize your Career</span></h2>
-                                <div class="container text-white">
+                                <!--<div class="container text-white">
                                     <h6 class="text-center hde">India’s Best & Exclusive Foreign Language
                                         Institute<br><br>Taught By Experienced Lectures</h6>
                                 </div>
@@ -123,7 +171,19 @@
                                 <a href="#about" class="btn-get-started bg-danger animated fadeInUp scrollto">Register
                                     Now</a>
                                 <a onclick="window.scrollTo(0, 600);" class="btn-get-started animated fadeInUp scrollto"
-                                    style="cursor: pointer;">WhatsApp Us</a>
+                                    style="cursor: pointer;">WhatsApp Us</a>-->
+                                <div class="container text-white">
+                                <h6 class="text-center hde font-weight-bold animated fadeInUp" style="letter-spacing:2px" data-aos="fade-up">The most promising language school in Kerala<br>
+                                <br>Run by Capuchin Fathers<br></h6>
+                                </div>
+                                <a onclick="window.scrollTo(0, 600);" class="btn-get-started btn btn-lg col-lg-3 animated fadeInUp scrollto"
+                                    style="cursor: pointer;">Contact Us <i class="fa fa-phone"></i></a>
+                                <a onclick="window.scrollTo(0, 600);" class="btn-get-started btn btn-lg col-lg-3 animated fadeInUp scrollto"
+                                    style="cursor: pointer;">Our Programs <i class="fa fa-flash"></i></a>
+                                <a onclick="window.scrollTo(0, 600);" class="btn-get-started btn btn-lg col-lg-3 animated fadeInUp scrollto"
+                                style="cursor: pointer;">Upcoming Batches <i class="fa fa-linode"></i></a>
+                                <a onclick="window.scrollTo(0, 600);" class="btn-get-started btn btn-lg col-lg-3 animated fadeInUp scrollto"
+                                    style="cursor: pointer;">WhatsApp <i class="fa fa-whatsapp"></i></a>
                             </div>
                         </div>
                     </div>
@@ -133,7 +193,7 @@
                         <div class="carousel-container">
                             <div class="carousel-content container">
                                 <h2 class="animated fadeInDown">Admission Started for new <span>Batches</span></h2>
-                                <div class="container text-white">
+                                <!--<div class="container text-white">
                                     <h6 class="text-center hde">Best batches available<br><br>Taught By Experienced
                                         Lectures</h6>
                                 </div>
@@ -142,36 +202,99 @@
                                 <a href="#about" class="btn-get-started animated fadeInUp scrollto"
                                     style="background-color: #FF6F01;">Flexible Regular Batches</a>
                                 <a href="#about" class="btn-get-started animated fadeInUp scrollto"
-                                    style="background-color: #FF2500;">Fast Track Dynamic Batches</a>
+                                    style="background-color: #FF2500;">Fast Track Dynamic Batches</a>-->
+                                <div class="container text-white">
+                                <h6 class="text-center hde font-weight-bold animated fadeInUp" style="letter-spacing:2px" data-aos="fade-up">The most promising language school in Kerala<br>
+                                <br>Run by Capuchin Fathers<br></h6>
+                                </div>
+                                <a onclick="window.scrollTo(0, 600);" class="btn-get-started btn btn-lg col-lg-3 animated fadeInUp scrollto"
+                                    style="cursor: pointer;">Contact Us <i class="fa fa-phone"></i></a>
+                                <a onclick="window.scrollTo(0, 600);" class="btn-get-started btn btn-lg col-lg-3 animated fadeInUp scrollto"
+                                    style="cursor: pointer;">Our Programs <i class="fa fa-flash"></i></a>
+                                <a onclick="window.scrollTo(0, 600);" class="btn-get-started btn btn-lg col-lg-3 animated fadeInUp scrollto"
+                                style="cursor: pointer;">Upcoming Batches <i class="fa fa-linode"></i></a>
+                                <a onclick="window.scrollTo(0, 600);" class="btn-get-started btn btn-lg col-lg-3 animated fadeInUp scrollto"
+                                    style="cursor: pointer;">WhatsApp <i class="fa fa-whatsapp"></i></a>
                             </div>
                         </div>
                     </div>
 
                 </div>
 
-                <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#heroCarousel" data-aos="fade-right" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon icofont-scroll-bubble-left" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#heroCarousel" data-aos="fade-left" role="button" data-slide="next">
                     <span class="carousel-control-next-icon icofont-scroll-bubble-right" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
 
+
             </div>
         </div>
     </section><!-- End Hero -->
+    <div class="col panl" >
+        <a href="#" data-aos="fade-up" class="btn text-white" data-toggle="modal" data-target="#mymodal" style="background-color:#4045AE;">More <i class="fa fa-superpowers"></i></a>
+        <a href="#" data-aos="fade-up" class="btn text-white float-right"style="background-color:#4045AE;"><i class="fa fa-wpexplorer"></i> View</a>
+    </div>
 
-    <marquee behavior="" direction="left" class="text-danger pt-3"><span><img src="assets/img/logo/new.GIF"
+    <!--<marquee behavior="" direction="left" class="text-danger pt-3"><span><img src="assets/img/logo/new.GIF"
                 alt=""></span> Admissions
         for 2020-21 batches
         started. Register Now. <span><img src="assets/img/logo/new.GIF" alt=""></span> Admissions
         for 2020-21 batches
         started. Register Now.
-    </marquee>
+    </marquee>-->
+
+    <div class="container mt-5 " data-aos="fade-up">
+        <div id="slider2" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li class="active ind" data-target="#slider2" data-slide-to="0">
+                    <li class="ind" data-target="#slider2" data-slide-to="1"></li>
+                    <li class="ind" data-target="#slider2" data-slide-to="2"></li>
+                </li>
+            </ol>
+            <div class="carousel-inner shadow radius">
+                <div class="carousel-item active p-3 radius" style="background-color: #C004D9;">
+                    <div class="row p-2">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12 ml-2 mx-auto">
+                            <div>
+                                <p class="text-white pt-1 text-center" style="line-height:35px;"><span><i class="fas fa-user-graduate fa-2x p-2"></i></span>
+                                 Admissions for 2020-21 batches started. <span class="btn pl-3 btn-light btn-rounded" style="border-radius:15px;">Register Now <i class="fa fa-user-plus text-danger"></i></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item p-3 radius" style="background:#AB05F2" >
+                    <div class="row p-2">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12 ml-2 mx-auto">
+                            <div>
+                                <p class="text-white pt-1 text-center" style="line-height:35px;"><span><i class="fas fa-user-graduate fa-2x p-2"></i></span>
+                                Admissions for 2020-21 batches started. <span class="btn btn-light btn-rounded" style="border-radius:15px;">Register Now <i class="fa fa-user-plus text-danger"></i></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item  p-3 radius" style="background:#C004D9">
+                    <div class="row p-2">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12 ml-2 mx-auto">
+                            <div>
+                                <p class="text-white pt-1 text-center" style="line-height:35px;"><span><i class="fas fa-user-graduate fa-2x p-2"></i></span>
+                                Admissions for 2020-21 batches started. <span class="btn btn-light btn-rounded" style="border-radius:15px;">Register Now <i class="fa fa-user-plus text-danger"></i> </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-    <section id="why-us" class="why-us pt-5 pb-4">
+    <!--<section id="why-us" class="why-us pt-5 pb-4">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 d-flex align-items-stretch">
@@ -209,44 +332,539 @@
                                 </div>
                             </div>
                         </div>
-                    </div><!-- End .content-->
+                    </div>
                 </div>
             </div>
 
         </div>
-    </section><!-- End Why Us Section -->
+    </section> --> <!-- End Why Us Section -->
 
-    <section id="about" class="site-section element-animate">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6 order-md-2">
-                    <div class="block-16">
-                        <figure>
-                            <img src="assets/img/img_1.jpg" alt="Image placeholder" class="img-fluid">
-                            <a href="https://www.youtube.com/watch?v=ENuXoebX2os" class="play-button popup-vimeo"><span
-                                    class="ion-ios-play"></span></a>
-
-                            <!-- <a href="https://vimeo.com/45830194" class="button popup-vimeo" data-aos="fade-right" data-aos-delay="700"><span class="ion-ios-play"></span></a> -->
-
-                        </figure>
-                    </div>
-                </div>
-                <div class="col-md-6 order-md-1">
-
-                    <div class="block-15">
-                        <div class="heading">
-                            <h2>Welcome to Our Institute</h2>
+    <section id="about" class="site-section element-animate ">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-12 col-lg-6 order-md-1 mb-3">
+                    <div class="block-15 radius pl-4 pt-3 pb-2" data-aos="fade-right" data-aos-delay="50" style="height:100%" >
+                    <!-- <div class="block-15 " data-aos="fade-right"> -->
+                        <div class="heading pt-3">
+                            <h2 style="color: #2C234D;"><b>Welcome to Our Institute</b></h2>
                         </div>
-                        <div class="mb-5">
+                        <div class="mb-2 pr-4 ">
                             <p class="tex-col">ASSISI Institute of Foreign Languages (AIFL) is providing German language
-                                coaching in
-                                Bharananganam, Kottayam District of Kerala State since September 2016. AIFL functions
+                                coaching in Bharananganam, Kottayam District of Kerala State since September 2016. AIFL functions
                                 under Capuchin Charitable and Educational Society (CCES). The institution aims at
                                 creating a situation of borderlessness by going beyond one’s linguistic boarders. </p>
                         </div>
-                        <p><a href="#" class="btn text-white reverse py-2 px-4" style="background-color: #11CBD7;">Read
-                                More</a>
+                        <p data-aos="fade-left">
+                            <a href="#" class="btn reverse py-2 mb-5 mt-3 px-4">
+                                MORE ABOUT US <i class="fa fa-long-arrow-right"></i></a>
                         </p>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-6 col-sm-12 order-md-2">
+                    <div class="block-15  shadow radius pt-4 pl-4 pb-5 pr-4" data-aos="fade-left" data-aos-delay="100" >
+                        <div class="heading pt-3">
+                            <h2 style="color: #2C234D;"><b>Our Achievers</b></h2>
+                        </div>
+                        
+                        <div id="slider3" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li class="active ind" style="background-color: #11CBD7 !important;" data-target="#slider3" data-slide-to="0">
+                                    <li class="ind" style="background-color: #11CBD7 !important;" data-target="#slider3" data-slide-to="1"></li>
+                                    <li class="ind" style="background-color: #11CBD7 !important;" data-target="#slider3" data-slide-to="2"></li>
+                                </li>
+                            </ol>
+                            <div class="carousel-inner radius">
+                                <div class="carousel-item active p-3 radius" style="background:url(assets/img/about2.png);background-repeat:no-repeat;background-size:cover;">
+                                    <div class="row p-2">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-12 ml-2 mx-auto">
+                                            <p class="text-center font-weight-bold text-dark">A2 Winners <i class="fa fa-trophy text-primary"></i></p>
+                                            <hr style="margin-top:-5px;">
+                                            <div class="row portfolio-container mt-4" data-aos="fade-up" data-aos-delay="100">
+                                
+                                
+                                                <!--first row-->
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-web">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+
+                                                <!--second row-->
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-web">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                            
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+
+
+                                                <!--third row-->
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/avatar.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">You</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/plus.png" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">More</p>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item p-3 radius" style="background:url(assets/img/about2.png);background-repeat:no-repeat;background-size:cover;" >
+                                    <div class="row p-2">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-12 ml-2 mx-auto">
+                                            <p class="text-center font-weight-bold text-dark">B2 Winners <i class="fa fa-trophy text-primary"></i></p>
+                                            <hr style="margin-top:-5px;">
+                                            <div class="row portfolio-container mt-4" data-aos="fade-up" data-aos-delay="100">
+                                                <!--first row-->
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-web">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+
+                                                <!--second row-->
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-web">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+
+
+                                                <!--third row-->
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/avatar.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">You</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/plus.png" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">More</p>
+                                                </div>
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item  p-3 radius" style="background:url(assets/img/about2.png);background-repeat:no-repeat;background-size:cover;">
+                                    <div class="row p-2">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-12 ml-2 mx-auto">
+                                            <p class="text-center font-weight-bold text-dark">C2 Winners <i class="fa fa-trophy text-primary"></i></p>
+                                            <hr style="margin-top:-5px;">
+                                            <div class="row portfolio-container mt-4" data-aos="fade-up" data-aos-delay="100">
+                                                <!--first row-->
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-web">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+
+                                                <!--second row-->
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-web">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+
+
+                                                <!--third row-->
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">Manuel</p>
+                                                </div>
+                
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/avatar.jpg" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">You</p>
+                                                </div>
+                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-3 portfolio-item filter-app">
+                                                  <div class="portfolio-wrap" style="border-radius:50%">
+                                                    <img src="assets/img/testimonials/plus.png" class="img-fluid" alt="">
+                                                    
+                                                  </div>
+                                                  <p class="text-center text-dark pt-2" style="font-size:12px;">More</p>
+                                                </div>
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!--<div class="container" style="background-color:#E3E1FF;border-top-right-radius:15px">
+                            <div class="row" data-aos="fade-left"  style="background-color:#E1F0FA;border-top-right-radius:15px;">
+                                <div class="col-lg-12 col-md-12 col-sm-12 d-flex">
+                                  <ul id="portfolio-flters">
+                                    <li style="border-right:1px solid white;">A2 Winners</li>
+                                    <li style="border-right:1px solid white;">B2 Winners</li>
+                                    <li>C2 Winners</li>
+                                  </ul>
+                                </div>
+                            </div>
+                            <div class="row portfolio-container mt-4" data-aos="fade-up" data-aos-delay="100">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-4 portfolio-item filter-app">
+                                  <div class="portfolio-wrap">
+                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                    <div class="portfolio-links">
+                                      <a href="assets/img/testimonials/testimonials-5.jpg" data-gall="portfolioGallery" class="venobox py-2"
+                                        title="App 1">Albin Francis</a>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-4 portfolio-item filter-web">
+                                  <div class="portfolio-wrap">
+                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                    <div class="portfolio-links">
+                                      <a href="assets/img/testimonials/testimonials-5.jpg" data-gall="portfolioGallery" class="venobox py-2"
+                                        title="Web 3">Noel Francis</a>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-4 portfolio-item filter-app">
+                                  <div class="portfolio-wrap">
+                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                    <div class="portfolio-links">
+                                      <a href="assets/img/testimonials/testimonials-5.jpg" data-gall="portfolioGallery" class="venobox py-2"
+                                        title="App 2">Noel Francis</a>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-4 portfolio-item filter-app">
+                                  <div class="portfolio-wrap">
+                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid" alt="">
+                                    <div class="portfolio-links">
+                                      <a href="assets/img/testimonials/testimonials-5.jpg" data-gall="portfolioGallery" class="venobox py-2"
+                                        title="App 2">Noel Francis</a>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-4 portfolio-item filter-app">
+                                  <div class="portfolio-wrap">
+                                    <img src="assets/img/testimonials/avatar.jpg" class="img-fluid" alt="">
+                                    <div class="portfolio-links">
+                                      <a href="assets/img/testimonials/avatar.jpg" data-gall="portfolioGallery" class="venobox py-2"
+                                        title="App 2">You</a>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-4 portfolio-item filter-app">
+                                  <div class="portfolio-wrap">
+                                    <img src="assets/img/testimonials/plus.png" class="img-fluid" alt="">
+                                    <div class="portfolio-links">
+                                      <a href="assets/img/testimonials/plus.png" data-gall="portfolioGallery" class="venobox py-2"
+                                        title="App 2">View More</a>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
@@ -264,7 +882,7 @@
             <div class="row">
 
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                    <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="50">
                         <div class="icon  icon2"></div>
                         <h4 class="title"><a href="">German</a></h4>
                         <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
@@ -273,7 +891,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                    <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
                         <div class="icon icon3"></div>
                         <h4 class="title"><a href="">French</a></h4>
                         <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
@@ -282,7 +900,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                    <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="150">
                         <div class="icon icon4"></div>
                         <h4 class="title"><a href="">Italian</a></h4>
                         <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
@@ -290,7 +908,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                    <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
                         <div class="icon icon1"></div>
                         <h4 class="title"><a href="">English</a></h4>
                         <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
@@ -303,9 +921,28 @@
         </div>
     </section><!-- End Courses Section -->
 
+    <section class=" p-5" style="background-color:#E1F0FA;">
+      <div class="container">
+          <div class="wants-wrapper">
+              <div class="row align-items-center justify-content-between">
+                  <div class="col-xl-8 col-lg-9 col-md-8" data-aos="fade-right">
+                      <div class="wantToWork-caption wantToWork-caption2">
+                          <h2 class="font-weight-bold" style="color:#2C234D">Download our Newsletter</h2>
+                          <p style="color:#2C234D">Our success story depends on the students who learn from us by enlightning their knowledge. </p>
+                      </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-4" data-aos="fade-left">
+                      <a href="#" class="btn btt text-white px-5 py-3">Download <i class="fa fa-download"></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+
 
     <!-- Team Section Begin -->
-    <section class="team spad">
+    <section class="team spad bg-light pt-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
@@ -316,10 +953,24 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="team__item">
+                <div class="col-lg-12">
+                    <div class="col-lg-5 mx-auto" data-aos="fade-up" data-aos-delay="100">
+                        <div class="team__item bg-white" style="border-radius:5px;">
+                            <div class="team__item__img col-lg-12">
+                                <img src="assets/img/testimonials/testimonials-5.jpg" alt="" class="mx-auto row" style="width:150px;border-radius:5px;">
+                                <div class="team__item__text">
+                                <h5 class="text-center pt-3">DAVID WARNER</h5>
+                                <span class="text-center">Instructor</span>
+                                <p class="text-center">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="50">
+                    <div class="team__item bg-white" style="border-radius:5px;">
                         <div class="team__item__img">
-                            <img src="assets/img/team/team-1.png" alt="">
+                            <img src="assets/img/testimonials/testimonials-5.jpg" alt="" style="width:150px;border-radius:5px;">
                         </div>
                         <div class="team__item__text">
                             <h5>DAVID WARNER</h5>
@@ -334,10 +985,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="team__item">
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+                    <div class="team__item bg-white" style="border-radius:5px;">
                         <div class="team__item__img">
-                            <img src="assets/img/team/team-2.png" alt="">
+                            <img src="assets/img/testimonials/testimonials-5.jpg" alt="" style="width:150px;border-radius:5px;">
                         </div>
                         <div class="team__item__text">
                             <h5>DAVID WARNER</h5>
@@ -352,10 +1003,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="team__item">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="50">
+                    <div class="team__item bg-white" style="border-radius:5px;">
                         <div class="team__item__img">
-                            <img src="assets/img/team/team-3.png" alt="">
+                            <img src="assets/img/testimonials/testimonials-5.jpg" alt="" style="width:150px;border-radius:5px;">
                         </div>
                         <div class="team__item__text">
                             <h5>DAVID WARNER</h5>
@@ -370,10 +1021,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="team__item">
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+                    <div class="team__item bg-white" style="border-radius:5px;">
                         <div class="team__item__img">
-                            <img src="assets/img/team/team-4.png" alt="">
+                            <img src="assets/img/testimonials/testimonials-5.jpg" alt="" style="width:150px;border-radius:5px;">
                         </div>
                         <div class="team__item__text">
                             <h5>DAVID WARNER</h5>
@@ -394,7 +1045,7 @@
     <!-- Team Section End -->
 
     <!--batches-->
-    <div class="container pb-5 mb-5">
+    <!-- <div class="container pb-5 pt-5 mb-5">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <div class="section-title" data-aos="fade-up">
@@ -404,34 +1055,84 @@
             </div>
         </div>
         <div class="row ml-2 mr-2">
-            <div class="bytn1 col-lg-3 col-md-3 col-sm-3 mx-auto text-center btn p-3 mb-3">
+            <div class="bytn1 col-lg-3 col-md-3 col-sm-3 mx-auto text-center btn p-3 mb-3" data-aos="fade-right" data-aos-delay="50">
                 <b>Fixed Regular</b>
             </div>
-            <div class="bytn2 col-lg-3 col-md-3 col-sm-3 mx-auto text-center btn p-3 mb-3">
+            <div class="bytn2 col-lg-3 col-md-3 col-sm-3 mx-auto text-center btn p-3 mb-3" data-aos="fade-right" data-aos-delay="100">
                 <b>Flexible Regular</b>
             </div>
-            <div class="bytn3 col-lg-3 col-md-3 col-sm-3 mx-auto text-center btn p-3 mb-3">
+            <div class="bytn3 col-lg-3 col-md-3 col-sm-3 mx-auto text-center btn p-3 mb-3" data-aos="fade-right" data-aos-delay="150">
                 <b>Fast Track Dynamic</b>
             </div>
         </div>
-    </div>
+    </div> -->
     <!--end batches-->
+
+
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="wow fadeIn pb-5">
+      <div class="container">
+
+        <div class="row counters mb-5 pt-2 radius" data-aos="fade-up" style="background-color:#020996be">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up" class="text-white">2740</span>
+            <p class="font-weight-bold"> <i class="fa fa-bar-chart"></i> Placed</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up" class="text-white">4210</span>
+            <p class="font-weight-bold"> <i class="fa fa-graduation-cap"></i> Qualified</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up" class="text-white">1,364</span>
+            <p class="font-weight-bold"> <i class="fa fa-trophy"></i> B2 Winners</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up" class="text-white">1800</span>
+            <p class="font-weight-bold"> <i class="fa fa-university"></i> Instructors</p>
+          </div>
+
+        </div>
+
+        <div class="facts-img">
+            <div class="block-16">
+                <figure data-aos="fade-up">
+                    <a href="https://www.youtube.com/watch?v=ENuXoebX2os"  class="play-button popup-vimeo"><span
+                            class="ion-ios-play"></span></a>
+                    <!-- <a href="https://vimeo.com/45830194" class="button popup-vimeo" data-aos="fade-right" data-aos-delay="700"><span class="ion-ios-play"></span></a> -->
+                </figure>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <h5 class="text-center text-dark font-weight-bold pt-5">Assisi Video</h5>
+            <p class="text-center" style="line-height:30px;color:#2C234D">A comprehensive program facilitated by Assisi focuses on learning Foreign Languages which makes the 
+                aspirants equipped with all the strategies required to attempt the test and get success.
+            </p>
+        </div>
+      </div>
+    </section><!-- End Facts Section -->
+    
+
+        
     <div class="site-section bg-light">
         <div class="container">
             <div class="row justify-content-center mb-5 element-animate">
                 <div class="col-md-7 text-center section-heading">
-                    <h2 class="text-center" style="color: #2C234D;"><b>Latest News</b></h2>
+                    <h2 class="text-center" data-aos="fade-up" style="color: #2C234D;"><b>Latest News</b></h2>
                 </div>
             </div>
             <div class="row element-animate">
 
                 <div class="col-md-12 mb-5 mb-lg-0 col-lg-6">
 
-                    <div class="block-20 ">
+                    <div class="block-20 radius" data-aos="fade-right">
                         <figure>
                             <a href="#"><img src="assets/img/img_1.jpg" alt="" class="img-fluid"></a>
                         </figure>
-                        <div class="text">
+                        <div class="text pb-4 pt-4">
                             <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the
                                     blind texts</a></h3>
                             <div class="meta">
@@ -445,7 +1146,7 @@
                 </div>
                 <div class="col-md-12 col-lg-6">
 
-                    <div class="block-21 d-flex mb-4">
+                    <div class="block-21 d-flex mb-4" data-aos="fade-up" data-aos-delay="50">
                         <figure class="mr-3">
                             <a href="#"><img src="assets/img/img_2.jpg" alt="" class="img-fluid"></a>
                         </figure>
@@ -460,7 +1161,7 @@
                         </div>
                     </div>
 
-                    <div class="block-21 d-flex mb-4">
+                    <div class="block-21 d-flex mb-4" data-aos="fade-up" data-aos-delay="100">
                         <figure class="mr-3">
                             <a href="#"><img src="assets/img/img_3.jpg" alt="" class="img-fluid"></a>
                         </figure>
@@ -475,7 +1176,7 @@
                         </div>
                     </div>
 
-                    <div class="block-21 d-flex mb-4">
+                    <div class="block-21 d-flex mb-4" data-aos="fade-up" data-aos-delay="150">
                         <figure class="mr-3">
                             <a href="#"><img src="assets/img/img_1.jpg" alt="" class="img-fluid"></a>
                         </figure>
@@ -490,7 +1191,7 @@
                         </div>
                     </div>
 
-                    <div class="block-21 d-flex mb-4">
+                    <div class="block-21 d-flex mb-4" data-aos="fade-up" data-aos-delay="200">
                         <figure class="mr-3">
                             <a href="#"><img src="assets/img/img_1.jpg" alt="" class="img-fluid"></a>
                         </figure>
@@ -514,11 +1215,11 @@
         <div class="container">
             <div class="row mb-5">
                 <div class="col-md-12 text-center">
-                    <h2 class="text-center" style="color: #2C234D;"><b>Miscellaneous</b></h2>
+                    <h2 class="text-center" data-aos="fade-right"  style="color: #2C234D;"><b>Miscellaneous</b></h2>
                 </div>
             </div>
             <div class="row border-responsive">
-                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0 border-right">
+                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0 border-right" data-aos="fade-up" data-aos-delay="50">
                     <div class="text-center">
                         <span class="icofont-telephone display-4 d-block mb-3"></span>
                         <h4 class="titled"><a href="#">Telephone Directory</a></h4>
@@ -526,7 +1227,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0 border-right">
+                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0 border-right" data-aos="fade-up" data-aos-delay="100">
                     <div class="text-center">
                         <span class="icofont-video-cam display-4 d-block mb-3"></span>
                         <h4 class="titled"><a href="#">Video Gallery</a></h4>
@@ -534,7 +1235,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0 border-right">
+                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0 border-right" data-aos="fade-up" data-aos-delay="150">
                     <div class="text-center">
                         <span class="icofont-news display-4 d-block mb-3"></span>
                         <h4 class="titled"><a href="#">News Portal</a></h4>
@@ -542,7 +1243,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
                     <div class="text-center">
                         <span class="icofont-graduate display-4 d-block mb-3"></span>
                         <h4 class="titled"><a href="#">Scholarships</a></h4>
@@ -563,7 +1264,7 @@
 
             <div class="owl-carousel testimonials-carousel" data-aos="fade-up" data-aos-delay="200">
 
-                <div class="testimonial-wrap">
+                <div class="testimonial-wrap py-2 pr-3 radius" style="background-color:#FFFFFF">
                     <div class="testimonial-item">
                         <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                         <h3>Dilnet Thomas</h3>
@@ -578,7 +1279,19 @@
                     </div>
                 </div>
 
-                <div class="testimonial-wrap">
+                <div class="testimonial-wrap pt-4 py-2" style="background-color:#FFFFFF">
+                    <div class="col-md-12 order-md-2">
+                    <div class="block-16">
+                        <figure>
+                          <iframe width="420" height="280" style="border-radius:5px;"
+                              src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                          </iframe> 
+                        </figure>
+                    </div>
+                    </div>
+                </div>
+                
+                <!--<div class="testimonial-wrap  py-2" style="background-color:#FFFFFF">
                     <div class="testimonial-item">
                         <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                         <h3>Joel Sunny George</h3>
@@ -591,9 +1304,9 @@
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
                     </div>
-                </div>
+                </div>-->
 
-                <div class="testimonial-wrap">
+                <div class="testimonial-wrap py-2 pr-3" style="background-color:#FFFFFF">
                     <div class="testimonial-item">
                         <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                         <h3>Sraddha Maria Shajan</h3>
@@ -608,22 +1321,19 @@
                     </div>
                 </div>
 
-                <div class="testimonial-wrap">
-                    <div class="testimonial-item">
-                        <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                        <h3>Alizeh Anderson</h3>
-                        <h4>Freelancer</h4>
-                        <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim
-                            velit minim
-                            dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                        </p>
+                <div class="testimonial-wrap pt-4 py-2" style="background-color:#FFFFFF">
+                    <div class="col-md-12 order-md-2">
+                    <div class="block-16">
+                        <figure>
+                          <iframe width="420" height="280" style="border-radius:5px;"
+                              src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                          </iframe>
+                        </figure>
+                    </div>
                     </div>
                 </div>
 
-                <div class="testimonial-wrap">
+                <div class="testimonial-wrap py-2 pr-3" style="background-color:#FFFFFF">
                     <div class="testimonial-item">
                         <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
                         <h3>John Larson</h3>
@@ -632,10 +1342,21 @@
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                             Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam
                             enim culpa
-                            labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum
-                            quid.
+                            labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nis.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
+                    </div>
+                </div>
+
+                <div class="testimonial-wrap pt-4 py-2" style="background-color:#FFFFFF">
+                    <div class="col-md-12 order-md-2">
+                    <div class="block-16">
+                        <figure>
+                          <iframe width="420" height="280" style="border-radius:5px;"
+                              src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                          </iframe>
+                        </figure>
+                    </div>
                     </div>
                 </div>
 
@@ -643,15 +1364,15 @@
 
         </div>
     </section><!-- End Testimonials Section -->
-    <section class="ftco-section ftco-no-pt ftco-no-pb" style="background-color: #11CBD7;">
+   <!-- <section class="container-fluid ftco-no-pt ftco-no-pb" style="background-color: #11CBD7;">
         <div class="container">
             <div class="row d-flex justify-content-center">
-                <div class="col-lg-8 py-4">
+                <div class="col-lg-8 col-md-8 col-sm-8 py-4">
                     <div class="row">
-                        <div class="col-md-6 ftco-animate d-flex align-items-center">
-                            <h2 class="mb-0 pb-2" style="color:white; font-size: 24px;">Subcribe to our Newsletter</h2>
+                        <div class="col-md-6 col-lg-6 col-sm-6 d-flex align-items-center">
+                            <h2 class="mb-0 pb-2" data-aos="fade-right" data-aos-delay="50" style="color:white; font-size: 24px;">Subcribe to our Newsletter</h2>
                         </div>
-                        <div class="col-md-6 d-flex align-items-center">
+                        <div class="col-md-6 col-lg-6 col-sm-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
                             <form action="#" class="subscribe-form">
                                 <div class="form-group d-flex">
                                     <input type="email" class="form-control" placeholder="Enter email address">
@@ -663,6 +1384,7 @@
                 </div>
             </div>
         </div>
+<<<<<<< Updated upstream:index.html
     </section>
 
     <footer class="ftco-footer ftco-bg-dark ftco-section bg-white">
@@ -753,12 +1475,42 @@
                     Foxiton</b></div>
         </div>
     </footer>
+=======
+    </section>-->
+    <!-- ======= Footer Starts Here ======= -->
+     <?php include'footer.html';?>
+    <!-- ======= Footer ends Here ======= -->
+
+    <!-- ======= Modals ======= -->
+
+    <modal class="modal" id="mymodal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal Title</h5>
+                    <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque perspiciatis quod corrupti repellat nulla fuga illo, sapiente dolor iusto quam deleniti, et laudantium illum officia aliquid voluptates voluptate quis laboriosam.
+                    Officia reprehenderit qui quo sunt sit provident unde iusto. Sequi eveniet dolorum laborum dicta harum. Quidem, porro eum quae magnam nobis odit et dolores quaerat doloremque beatae veniam tenetur dolor.
+                    Quis aspernatur ratione ex tempore nulla molestiae repellendus a optio natus sequi delectus dolorem molestias nesciunt officia porro maxime, ut obcaecati id maiores odio velit cumque labore nobis totam. Culpa?
+                    Impedit officia soluta numquam laboriosam pariatur atque deserunt illum sapiente reiciendis facere est laborum cum id ducimus repellat sint mollitia consequuntur voluptates, doloremque perferendis in nemo beatae. Iure, itaque consequatur.
+                    Earum ea esse optio, eos minima veniam eum recusandae repellendus consequuntur ad omnis rem ab alias in officiis ipsam necessitatibus culpa libero molestiae quibusdam. Hic voluptatibus exercitationem facilis libero eum?
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </modal>
+>>>>>>> Stashed changes:index.php
 
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/superfish/1.7.10/js/superfish.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.boomcdn.com/libs/owl-carousel/2.3.4/owl.carousel.min.js"></script>-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
     <script src="assets/vendor/jquery/jquery.min.js"></script>
@@ -766,6 +1518,14 @@
     <script src="assets/vendor/superfish/superfish.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <!--<script src="assets/vendor/aos/aos.js"></script>-->
+    
+    
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/superfish/superfish.min.js"></script>
+    <script src="assets/vendor/jquery-touchswipe/jquery.touchSwipe.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
     <script src="assets/js/script.js"></script>
 </body>
